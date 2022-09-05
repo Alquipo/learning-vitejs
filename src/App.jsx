@@ -1,10 +1,16 @@
-import { useState } from 'react'
+import { Post } from './Post'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <h1>hello</h1>
+    <>
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+      <Post />
+    </>
   )
 }
 

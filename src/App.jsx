@@ -4,12 +4,17 @@ function App() {
 
   return (
     <>
-      <Post />
-      <Post />
-      <Post />
-      <Post />
-      <Post />
-      <Post />
+      <Post
+        author="Alquipo neto"
+        content="Lorem Ipsum is simply dummy text of the printing and typesetting industr"
+      />
+      <Post
+        author="Alquipo neto"
+        content="Lorem Ipsum is simply dummy text of the printing and typesetting industr" />
+      <Post
+        author="Alquipo neto"
+        content="Lorem Ipsum is simply dummy text of the printing and typesetting industr" />
+
     </>
   )
 }
